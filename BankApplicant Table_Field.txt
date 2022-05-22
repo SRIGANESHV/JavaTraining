@@ -1,0 +1,39 @@
+TABLE NAME BANK APPLICANT.............
+
+1	Applicant Id -@Generated @Id PK
+2	Applying for :: Sb acct/ Current Acct
+
+Person Details:::
+3	Title > Mr./Miss/Mrs./Dr./Master/Shri/Smt.
+4	First Name
+5	MiddleName
+6	Last Name
+7	DOB : 
+8	Gender > Male/Female/Other
+9	Marital Status > Single/Married/Widow/Divorse/
+10	Religion > Hindu/christian/Muslim/Sikh/Jain/Other
+
+11	Father Name : 
+12	Mother Maiden Name : 
+13	SpouseName : 
+14	Id Type > Adhar Number/Voter Id/Driving License No./Passport Number/Other
+15	Id No.__________
+16	PAN ____________
+
+Contact Detail:
+17	Phone number
+18	Email Id
+19	Address
+
+Nominee Details:::
+20	Nominee Name -
+21	Nominee DOB - 
+22	Nominee Relationship -
+23	Nominee Address
+24	Guardian Name (If nominee is less than 18 year)
+25	Gaurdian Address
+
+Other Details
+26	Occupation : Govt Job/PSU/Private Sector/Business/Others:Agriculure
+27	Educational Qualifications : SSC/HSC, Graduate, Post Graduate/Professional Qualification
+28	Annual Income
