@@ -2,7 +2,7 @@ Create table BankApplicant(
 applicant_id number primary key,
 Applying_for varchar2(20) check (Applying_for in ('Saving Account','Current Account','Fixed')),
 Application_Date DATE not null,
-Application_Status varchar2(20) check (Application_Status in ('Applied Suceessfully','In-Progress','Approved','Rejected')),
+Application_Status varchar2(20) check (Application_Status in ('Applied Successfully','In-Progress','Approved','Rejected')),
 Title varchar2(10) check (Title in ('Mr.','Mrs.','Miss','Dr.','Shri','Smt')),
 First_name varchar2(20) Not Null,
 Middle_name varchar2(20),
@@ -26,6 +26,12 @@ Nominee_Relationship varchar2(30) Not Null,
 Nominee_Address varchar2(200) Not Null,
 Guardian_Name varchar2(30),
 Guardian_Address varchar2(200),
-Educational_Qualification Varchar(30) check  (Educational_Qualification in ('SSC/HSC','Gradute','Post Graduate','Professional Degree')),
+Educational_Qualification Varchar(30) check  (Educational_Qualification in ('SSC/HSC','Graduate','Post Graduate','Professional Degree')),
 Occupation_Type varchar(30) check  (Occupation_Type in ('Govt Sector','PSU','Private Sector','Business','Agriculture','Other')),
-Annual_Income number(10) not null);
+Annual_Income number(10) not null,
+Remarks varchar2(200)
+);
+
+
+---------------------------------------------------------------------
+insert into BankApplicant values(20220001,'Saving Account','23-MAY-2022','Applied Successfully','Mr.','Rajesh','Kumar','Sharma','12-JAN-1999','Male','Married','Hindu','Ram Kumar Sharma','Uma Devi','Vinita Sharma','Aadhar Number',111122223333,'RAJES52022',9898989898,'rajeshs19@hotmail.com','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101','Vinita Sharma','01-JAN-1999','Spouse','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101',NULL,NULL,'Graduate','PSU',600000,Null);
