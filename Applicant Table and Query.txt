@@ -1,0 +1,74 @@
+create table applicant 
+(
+applicant_id number(10,0) not null,
+applying_for varchar2(255 char), 
+application_date date, 
+application_status varchar2(255 char), 
+title varchar2(255 char), 
+first_name varchar2(255 char), 
+middle_name varchar2(255 char), 
+last_name varchar2(255 char), 
+date_of_birth date, 
+gender varchar2(255 char), 
+marital_status varchar2(255 char), 
+religion varchar2(255 char), 
+father_name varchar2(255 char), 
+mother_name varchar2(255 char), 
+spouse_name varchar2(255 char), 
+id_type varchar2(255 char), 
+id_number varchar2(255 char), 
+pan_card varchar2(255 char), 
+phone_number number(19,0), 
+email varchar2(255 char), 
+address varchar2(255 char), 
+nominee_name varchar2(255 char), 
+nominee_dob date, 
+nominee_relationship varchar2(255 char), 
+nominee_address varchar2(255 char), 
+guardian_name varchar2(255 char), 
+guardian_address varchar2(255 char), 
+educational_qualification varchar2(255 char), 
+occupation_type varchar2(255 char), 
+annual_income number(19,0), 
+remarks varchar2(255 char), 
+primary key (applicant_id));
+
+===================================
+Column Sequence..............
+===================================
+
+ APPLICANT_ID                              NOT NULL NUMBER(10)
+ NOMINEE_DOB                                        DATE
+ ADDRESS                                            VARCHAR2(150 CHAR)
+ ANNUAL_INCOME                                      NUMBER(19)
+ APPLICATION_DATE                                   DATE
+ APPLICATION_STATUS                                 VARCHAR2(20 CHAR)
+ APPLYING_FOR                                       VARCHAR2(20 CHAR)
+ DATE_OF_BIRTH                                      DATE
+ EDUCATIONAL_QUALIFICATION                          VARCHAR2(20 CHAR)
+ EMAIL                                              VARCHAR2(30 CHAR)
+ FATHER_NAME                                        VARCHAR2(30 CHAR)
+ FIRST_NAME                                         VARCHAR2(20 CHAR)
+ GENDER                                             VARCHAR2(10 CHAR)
+ GUARDIAN_ADDRESS                                   VARCHAR2(100 CHAR)
+ GUARDIAN_NAME                                      VARCHAR2(30 CHAR)
+ ID_NUMBER                                          VARCHAR2(12 CHAR)
+ ID_TYPE                                            VARCHAR2(30 CHAR)
+ LAST_NAME                                          VARCHAR2(20 CHAR)
+ MARITAL_STATUS                                     VARCHAR2(20 CHAR)
+ MIDDLE_NAME                                        VARCHAR2(20 CHAR)
+ MOTHER_NAME                                        VARCHAR2(30 CHAR)
+ NOMINEE_ADDRESS                                    VARCHAR2(150 CHAR)
+ NOMINEE_NAME                                       VARCHAR2(30 CHAR)
+ NOMINEE_RELATIONSHIP                               VARCHAR2(20 CHAR)
+ OCCUPATION_TYPE                                    VARCHAR2(20 CHAR)
+ PAN_CARD                                           VARCHAR2(10 CHAR)
+ PHONE_NUMBER                                       NUMBER(19)
+ RELIGION                                           VARCHAR2(20 CHAR)
+ REMARKS                                            VARCHAR2(150 CHAR)
+ SPOUSE_NAME                                        VARCHAR2(30 CHAR)
+ TITLE                                              VARCHAR2(10 CHAR)
+===========================
+
+insert into applicant values(20220001,'01-JAN-1999','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101',600000,'23-MAY-2022','Applied Successfully','Saving Account','12-JAN-1999','Graduate','rajeshs19@hotmail.com','Ram Kumar Sharma','Rajesh','Male',NULL,NULL,111122223333,'Aadhar Number','Sharma','Married','Kumar','Uma Devi','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101','Vinita Sharma','Spouse','PSU','RAJES52022',9898989898,'Hindu',NULL,'Vinita Sharma','Mr.');
+
