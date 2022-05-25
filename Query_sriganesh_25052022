@@ -1,0 +1,7 @@
+insert into applicant values(20220006,'02-FEB-1999','B-22 Anna Nagar Chennai 600001',425000,'24-MAY-2022','Applied Successfully','Saving Account','13-JAN-1999','Graduate','sachin@gmail.com','Sachin Tendulkar','Sachin','Male',NULL,NULL,111122223334,'Aadhar Number','Tendulkar','Married','Ramesh','Devi','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101','Anjali','Spouse','Sports','SACHI12345',9999999999,'Hindu',NULL,'ANJALI SACHIN','Mr.');
+
+
+insert into applicant values(20220007,'03-MAR-1999','B-22 Anna Nagar Chennai 600001',635214,'25-MAY-2022','Applied Successfully','Saving Account','14-JAN-1999','Graduate','zaheer@yahoo.com','Zaheer Khan','Zaheer','Male',NULL,NULL,789254132141,'Aadhar Number','Khan','Married','irfan','Farhana','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101','Annes','Spouse','Sports','ZAHEE12345',9898989898,'Muslim',NULL,'Parbeen','Mr.');
+
+
+insert into applicant values(20220008,'04-APR-1999','B-22 Anna Nagar Chennai 600001',900000,'26-MAY-2022','Applied Successfully','Current Account','15-JAN-1999','Graduate','mitcheljohnson@in.com','Mitchel Johnson','Mitchel','Male',NULL,NULL,547821364792,'Aadhar Number','Johnson','Married','Mark','Ruth','A-22 Arya Empire Near Lotus Karol Baug New Delhi 101101','Taylor','Spouse','Sports','MITCH65478',8458745213,'Christian',NULL,'Sofia','Mr.');
